@@ -1,0 +1,6 @@
+.element__image {
+  height: 282px;
+  width: 100%;
+  text-align: center;
+  object-fit: cover;
+}

@@ -1,0 +1,22 @@
+.profile {
+  max-width: 880px;
+  width: 100%;
+  margin: 40px 0 51px 0;
+  display: grid;
+  align-items: center;
+  box-sizing: border-box;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 1fr;
+  min-height: 120px;
+}
+
+@media screen and (max-width: 930px) {
+  .profile {
+    margin-top: 38.25px;
+    margin-bottom: 36px;
+    justify-items: center;
+    align-items: start;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+  }
+}

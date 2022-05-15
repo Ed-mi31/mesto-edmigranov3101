@@ -1,0 +1,29 @@
+.profile__button-edit {
+  align-self: center;
+  background: url(../../../../image/Vector2.png) 50%;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  height: 24px;
+  width: 24px;
+  margin-left: 18px 0 0 0;
+  outline: none;
+  transition: opacity 0.6s linear;
+}
+
+.profile__button-edit:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 930px) {
+  .profile__button-edit {
+    margin-top: 0;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.profile__edit-button:hover {
+  opacity: 0.6;
+}
